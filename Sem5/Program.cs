@@ -13,7 +13,7 @@ while (re=="s")
         Console.WriteLine("Ingrese edad");
         int edad = Convert.ToInt32(Console.ReadLine());
         suma = suma + edad;
-        cant = cant + 2;
+        cant = cant + 1;
     }
 }
 double prom = suma / cant;
